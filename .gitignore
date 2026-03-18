@@ -1,0 +1,15 @@
+# Python Virtual Environments
+venv/
+env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Logs and generated data
+*.log
+backtest_chart.html
+venom_chart.html
+
+# Security (If you hardcoded passwords, read below!)
+.env
