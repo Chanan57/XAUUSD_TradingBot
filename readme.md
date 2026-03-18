@@ -1,102 +1,143 @@
-🦅 Phoenix V6.4 - Quantitative Trading Engine
-Architecture Overview
-An autonomous, AI-driven algorithmic trading engine built for the XAUUSD (Gold) market. Operating on the M30 timeframe, the system utilizes a Random Forest classifier combined with strict macroeconomic trend filters to execute high-probability swing trades with a 1:4 Risk-to-Reward ratio.
+# 🦅 Phoenix V6.4 — Quantitative Trading Engine
 
-🧠 Core Logic & Indicators
-Macro Trend Filter: 200 SMA (Simple Moving Average). The bot strictly only buys in a macro uptrend and sells in a macro downtrend.
+An autonomous, AI-driven algorithmic trading engine built for the **XAUUSD (Gold)** market. Operating on the **M30 timeframe**, the system combines a Random Forest classifier with strict macroeconomic trend filters to execute high-probability swing trades at a **1:4 Risk-to-Reward ratio**.
 
-Micro Trend / Dynamic Exit: 50 EMA (Exponential Moving Average). Used to trigger AI Reversal exits if the trend breaks mid-trade.
+---
 
-Momentum Shield: 14-period ADX (Average Directional Index). Hard-coded ADX_THRESHOLD = 20. The bot refuses to trade in low-volume, choppy markets.
+## Table of Contents
 
-Sniper Execution: 14-period RSI (Relative Strength Index). The AI Oracle hunts for localized dips (RSI < 70 for Buys, RSI > 30 for Sells) in the direction of the macro trend.
+- [Core Logic & Indicators](#core-logic--indicators)
+- [Risk Management](#risk-management)
+- [Emergency Protocols](#emergency-protocols)
+- [Environment Setup](#environment-setup)
+  - [Phase 1: Prerequisites](#phase-1-prerequisites)
+  - [Phase 2: Terminal Configuration](#phase-2-terminal-configuration)
+  - [Phase 3: Code Installation](#phase-3-code-installation)
+  - [Phase 4: Dual-Terminal Architecture](#phase-4-dual-terminal-architecture)
+  - [Phase 5: Execution](#phase-5-execution)
 
-🛡️ Risk Management (The Iron Shield)
-Dynamic Sizing: Risk is strictly capped at 2.0% of live account equity per trade.
+---
 
-Volatility Adjustment: Stop Loss distances are dynamically calculated using 1.2 * ATR(14). As market volatility expands, the Stop Loss widens and the lot size automatically shrinks to maintain the exact 2.0% risk cap.
+## Core Logic & Indicators
 
-Dual-Frequency Heartbeat: * Hunting State: Evaluates the market every 30 minutes to preserve CPU.
+| Indicator | Config | Role |
+|---|---|---|
+| **SMA** | 200-period | Macro trend filter — buys only in uptrend, sells only in downtrend |
+| **EMA** | 50-period | Micro trend / dynamic exit — triggers AI Reversal exits on trend break |
+| **ADX** | 14-period, threshold `20` | Momentum shield — blocks trades in choppy, low-volume markets |
+| **RSI** | 14-period | Sniper execution — hunts dips in trend direction (`< 70` for buys, `> 30` for sells) |
 
-Guardian State: Shifts to a high-frequency 5-second loop when a trade is open to actively monitor for AI Reversal exits.
+---
 
-🛑 Emergency Protocols (Kill Switches)
-If any of these conditions are met, the bot must be immediately disconnected from the live server:
+## Risk Management
 
-The Hard Floor: Live equity drops below the $200.00 USD Uncle Point.
+- **Dynamic Position Sizing** — risk is strictly capped at `2.0%` of live account equity per trade.
+- **Volatility-Adjusted Stop Loss** — stop distances are calculated as `1.2 × ATR(14)`. As volatility expands, the stop widens and lot size shrinks to maintain the exact 2% cap.
+- **Dual-Frequency Heartbeat:**
+  - *Hunting State* — evaluates the market every **30 minutes** to preserve CPU.
+  - *Guardian State* — shifts to a high-frequency **5-second loop** when a trade is open, actively monitoring for AI Reversal exits.
 
-The Anomaly: The system suffers 6 consecutive full Stop Losses (a mathematical anomaly for a 1:4 architecture, signaling a total market regime shift).
+---
 
-The 20-Trade Audit: Live Profit Factor drops below 0.80 after a full 20-trade live sample size.
+## Emergency Protocols
 
-⚙️ Environment Setup & Installation Guide
-This quantitative trading engine relies on the official MetaTrader 5 Python integration. Because the MT5 library physically hooks into the trading terminal's memory, this bot must be run on a Windows machine or a Windows VPS.
+The bot must be **immediately disconnected** from the live server if any of the following are triggered:
 
-Phase 1: Prerequisites
-Before cloning the engine, ensure your system has the following installed:
+| # | Kill Switch | Condition |
+|---|---|---|
+| 1 | **The Hard Floor** | Live equity drops below `$200.00 USD` |
+| 2 | **The Anomaly** | 6 consecutive full Stop Losses (signals total market regime shift) |
+| 3 | **The 20-Trade Audit** | Live Profit Factor drops below `0.80` after 20 live trades |
 
-Windows 10/11 or Windows Server (Required for MT5).
+---
 
-Python 3.9+ (Ensure Python is added to your Windows PATH during installation).
+## Environment Setup
 
-MetaTrader 5 Terminal (IC Markets recommended for raw spreads).
+> ⚠️ **Windows Only.** The MT5 Python library physically hooks into the trading terminal's memory. This bot must run on a **Windows machine or Windows VPS**.
 
-Git for Windows.
+### Phase 1: Prerequisites
 
-Phase 2: Terminal Configuration
-The Python engine cannot communicate with MT5 unless the terminal's internal firewalls are lowered.
+Ensure the following are installed before proceeding:
 
-Open your MetaTrader 5 terminal.
+1. **Windows 10/11** or **Windows Server**
+2. **Python 3.9+** — add Python to your Windows PATH during installation
+3. **MetaTrader 5 Terminal** — IC Markets recommended for raw spreads
+4. **Git for Windows**
 
-Navigate to Tools > Options > Expert Advisors (or press Ctrl+O).
+---
 
-Check the box for "Allow automated trading".
+### Phase 2: Terminal Configuration
 
-Check the box for "Allow WebRequest for listed URL" (if connecting to external news APIs).
+The Python engine requires MT5's internal API permissions to be enabled.
 
-Click OK. Ensure your terminal is logged into your live or demo account and actively receiving price ticks.
+1. Open MetaTrader 5.
+2. Navigate to **Tools → Options → Expert Advisors** (or press `Ctrl+O`).
+3. Check **"Allow automated trading"**.
+4. Check **"Allow WebRequest for listed URL"** (required for external news API connections).
+5. Click **OK**.
 
-Phase 3: The Code Installation
-Open your PowerShell or Command Prompt and run the following commands to clone the architecture and isolate the environment.
+Ensure the terminal is logged into your live or demo account and actively receiving price ticks before proceeding.
 
-1. Clone the repository:
+---
 
-PowerShell
+### Phase 3: Code Installation
+
+Open **PowerShell** or **Command Prompt** and run the following:
+
+**1. Clone the repository:**
+```powershell
 git clone https://github.com/Chanan57/XAUUSD_TradingBot.git
 cd XAUUSD_TradingBot
-2. Build the Iron Shield (Virtual Environment):
-Never install algorithmic trading libraries globally. Isolate them.
+```
 
-PowerShell
+**2. Create a virtual environment:**
+
+> Never install algorithmic trading libraries globally. Always isolate them.
+```powershell
 python -m venv venv
-3. Activate the Environment:
+```
 
-PowerShell
+**3. Activate the environment:**
+```powershell
 venv\Scripts\activate
-(You should now see (venv) at the start of your terminal line).
+```
+You should see `(venv)` at the start of your terminal prompt.
 
-4. Install Quantitative Dependencies:
-
-PowerShell
+**4. Install dependencies:**
+```powershell
 pip install -r requirements.txt
-Phase 4: The Dual-Terminal Architecture (Best Practice)
-To prevent API collisions between live trading and historical data mining, it is highly recommended to use a Dual-Terminal Setup:
+```
 
-Terminal 1 (Live Production): Installed in C:\Program Files\MetaTrader 5. This runs main.py and actively manages your risk.
+---
 
-Terminal 2 (Sandbox/Backtesting): Installed in a separate folder (e.g., C:\Program Files\MetaTrader 5 - Sandbox). Logged into a Demo account. You must hardcode this path into Backtest.py to run historical simulations safely.
+### Phase 4: Dual-Terminal Architecture
 
-Phase 5: Execution Protocols
-With the terminal open and the virtual environment active, you are ready to deploy.
+To prevent API collisions between live trading and historical backtesting, a **Dual-Terminal Setup** is strongly recommended.
 
-To launch the Live Hunting Engine:
+| Terminal | Path | Purpose |
+|---|---|---|
+| **Production** | `C:\Program Files\MetaTrader 5` | Runs `main.py`, manages live risk |
+| **Sandbox** | `C:\Program Files\MetaTrader 5 - Sandbox` | Logged into a Demo account, used for `Backtest.py` |
 
-PowerShell
+> Hardcode the Sandbox path into `Backtest.py` to ensure historical simulations never touch your live account.
+
+---
+
+### Phase 5: Execution
+
+With the MT5 terminal open and the virtual environment active:
+
+**Launch the live hunting engine:**
+```powershell
 python main.py
-Verify the console prints the Dual-Frequency Architecture Initialized success message.
+```
+Verify the console prints:
+```
+Dual-Frequency Architecture Initialized
+```
 
-To run the Visual Backtester (Sandbox Only):
-
-PowerShell
+**Run the visual backtester (Sandbox only):**
+```powershell
 python Backtest.py
-This will crunch historical data and automatically open an interactive HTML chart in your web browser showing all AI entries and exits.
+```
+This crunches historical data and automatically opens an interactive HTML chart in your browser showing all AI entries and exits.
