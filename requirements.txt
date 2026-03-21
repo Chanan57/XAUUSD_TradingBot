@@ -1,0 +1,5 @@
+pandas
+MetaTrader5
+plotly
+scikit-learn
+ta
