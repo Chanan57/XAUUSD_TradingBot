@@ -1,0 +1,280 @@
+PHOENIX V6.4 TRADE LOG (2025-09-22 to 2026-03-21)
+================================================================================
+[2025-09-26 22:30:00] 🚀 OPEN BUY @ 3766.80 | Risk: $18.05 | Lots: 0.02
+[2025-09-26 23:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-18.19 | Bal: $981.81
+[2025-09-29 01:00:00] 🚀 OPEN BUY @ 3767.80 | Risk: $18.73 | Lots: 0.02
+[2025-09-29 07:00:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+74.77 | Bal: $1056.58
+[2025-09-29 10:30:00] 🚀 OPEN BUY @ 3806.23 | Risk: $22.00 | Lots: 0.02
+[2025-09-30 04:00:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+87.84 | Bal: $1144.42
+[2025-09-30 05:00:00] 🚀 OPEN BUY @ 3845.84 | Risk: $26.42 | Lots: 0.03
+[2025-09-30 10:30:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-26.63 | Bal: $1117.80
+[2025-09-30 17:00:00] 🚀 OPEN BUY @ 3844.03 | Risk: $15.36 | Lots: 0.01
+[2025-10-02 01:30:00] CLOSED BUY (0.01 lots): 🔄 AI Reversal | Net PnL: $+17.98 | Bal: $1135.78
+[2025-10-02 14:00:00] 🚀 OPEN BUY @ 3883.56 | Risk: $24.29 | Lots: 0.03
+[2025-10-02 16:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-24.50 | Bal: $1111.28
+[2025-10-03 22:00:00] 🚀 OPEN BUY @ 3886.77 | Risk: $19.34 | Lots: 0.02
+[2025-10-06 05:30:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+77.23 | Bal: $1188.51
+[2025-10-06 09:00:00] 🚀 OPEN BUY @ 3928.25 | Risk: $20.95 | Lots: 0.02
+[2025-10-06 23:30:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+83.67 | Bal: $1272.18
+[2025-10-07 01:30:00] 🚀 OPEN BUY @ 3963.44 | Risk: $22.67 | Lots: 0.02
+[2025-10-07 09:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-22.81 | Bal: $1249.37
+[2025-10-07 10:00:00] 🚀 OPEN BUY @ 3951.29 | Risk: $21.36 | Lots: 0.02
+[2025-10-08 02:00:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+85.28 | Bal: $1334.65
+[2025-10-08 13:00:00] 🚀 OPEN BUY @ 4040.34 | Risk: $32.01 | Lots: 0.03
+[2025-10-08 16:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-32.22 | Bal: $1302.43
+[2025-10-08 16:30:00] 🚀 OPEN BUY @ 4038.05 | Risk: $21.95 | Lots: 0.02
+[2025-10-08 23:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-22.09 | Bal: $1280.33
+[2025-10-09 06:00:00] 🚀 OPEN BUY @ 4024.51 | Risk: $31.82 | Lots: 0.02
+[2025-10-09 16:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-31.96 | Bal: $1248.37
+[2025-10-10 04:00:00] 🚀 OPEN SELL @ 3981.57 | Risk: $32.29 | Lots: 0.02
+[2025-10-10 11:30:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-32.43 | Bal: $1215.94
+[2025-10-10 14:30:00] 🚀 OPEN SELL @ 3987.18 | Risk: $29.01 | Lots: 0.02
+[2025-10-10 17:30:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-29.15 | Bal: $1186.79
+[2025-10-13 02:30:00] 🚀 OPEN BUY @ 4035.18 | Risk: $20.63 | Lots: 0.01
+[2025-10-14 02:00:00] CLOSED BUY (0.01 lots): 🎯 Hit TP | Net PnL: $+82.45 | Bal: $1269.24
+[2025-10-14 04:30:00] 🚀 OPEN BUY @ 4137.16 | Risk: $26.95 | Lots: 0.02
+[2025-10-14 08:00:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-27.09 | Bal: $1242.14
+[2025-10-14 08:30:00] 🚀 OPEN BUY @ 4121.27 | Risk: $18.48 | Lots: 0.01
+[2025-10-14 09:00:00] CLOSED BUY (0.01 lots): 🛑 Hit SL | Net PnL: $-18.55 | Bal: $1223.59
+[2025-10-14 09:30:00] 🚀 OPEN BUY @ 4112.39 | Risk: $21.53 | Lots: 0.01
+[2025-10-15 09:00:00] CLOSED BUY (0.01 lots): 🎯 Hit TP | Net PnL: $+86.07 | Bal: $1309.66
+[2025-10-15 09:30:00] 🚀 OPEN BUY @ 4199.42 | Risk: $29.12 | Lots: 0.02
+[2025-10-15 11:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-29.26 | Bal: $1280.40
+[2025-10-15 12:00:00] 🚀 OPEN BUY @ 4190.22 | Risk: $33.70 | Lots: 0.02
+[2025-10-16 16:00:00] CLOSED BUY (0.02 lots): 🎯 Hit TP | Net PnL: $+134.68 | Bal: $1415.07
+[2025-10-17 04:00:00] 🚀 OPEN BUY @ 4334.06 | Risk: $24.05 | Lots: 0.01
+[2025-10-17 14:00:00] CLOSED BUY (0.01 lots): 🛑 Hit SL | Net PnL: $-24.12 | Bal: $1390.96
+[2025-10-20 14:00:00] 🚀 OPEN BUY @ 4262.83 | Risk: $19.19 | Lots: 0.01
+[2025-10-20 17:30:00] CLOSED BUY (0.01 lots): 🎯 Hit TP | Net PnL: $+76.69 | Bal: $1467.64
+[2025-10-20 19:00:00] 🚀 OPEN BUY @ 4345.18 | Risk: $21.82 | Lots: 0.01
+[2025-10-21 08:00:00] CLOSED BUY (0.01 lots): 🛑 Hit SL | Net PnL: $-21.89 | Bal: $1445.75
+[2025-10-21 12:00:00] 🚀 OPEN SELL @ 4270.82 | Risk: $22.42 | Lots: 0.01
+[2025-10-21 16:00:00] CLOSED SELL (0.01 lots): 🎯 Hit TP | Net PnL: $+89.59 | Bal: $1535.34
+[2025-10-24 11:30:00] 🚀 OPEN SELL @ 4065.23 | Risk: $37.14 | Lots: 0.02
+[2025-10-24 15:00:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-37.28 | Bal: $1498.07
+[2025-10-24 22:30:00] 🚀 OPEN SELL @ 4104.22 | Risk: $36.57 | Lots: 0.02
+[2025-10-27 11:00:00] CLOSED SELL (0.02 lots): 🎯 Hit TP | Net PnL: $+146.14 | Bal: $1644.21
+[2025-10-27 11:30:00] 🚀 OPEN SELL @ 4043.23 | Risk: $37.49 | Lots: 0.02
+[2025-10-28 06:30:00] CLOSED SELL (0.02 lots): 🎯 Hit TP | Net PnL: $+149.81 | Bal: $1794.02
+[2025-10-28 07:00:00] 🚀 OPEN SELL @ 3971.55 | Risk: $38.80 | Lots: 0.02
+[2025-10-28 11:30:00] CLOSED SELL (0.02 lots): 🎯 Hit TP | Net PnL: $+155.07 | Bal: $1949.08
+[2025-10-28 18:30:00] 🚀 OPEN SELL @ 3964.77 | Risk: $39.37 | Lots: 0.02
+[2025-10-29 02:30:00] CLOSED SELL (0.02 lots): 🔄 AI Reversal | Net PnL: $-0.70 | Bal: $1948.38
+[2025-10-29 20:00:00] 🚀 OPEN SELL @ 3986.96 | Risk: $44.55 | Lots: 0.03
+[2025-10-29 20:30:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-44.76 | Bal: $1903.62
+[2025-10-29 21:00:00] 🚀 OPEN SELL @ 3981.18 | Risk: $32.35 | Lots: 0.02
+[2025-10-29 23:30:00] CLOSED SELL (0.02 lots): 🎯 Hit TP | Net PnL: $+129.25 | Bal: $2032.88
+[2025-10-30 03:00:00] 🚀 OPEN SELL @ 3959.60 | Risk: $41.71 | Lots: 0.02
+[2025-10-30 07:00:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-41.85 | Bal: $1991.03
+[2025-10-30 21:30:00] 🚀 OPEN BUY @ 4016.17 | Risk: $37.87 | Lots: 0.02
+[2025-10-31 05:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-38.01 | Bal: $1953.02
+[2025-10-31 07:00:00] 🚀 OPEN BUY @ 4000.80 | Risk: $35.28 | Lots: 0.02
+[2025-10-31 18:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-35.42 | Bal: $1917.60
+[2025-11-04 12:00:00] 🚀 OPEN SELL @ 3992.14 | Risk: $35.86 | Lots: 0.03
+[2025-11-04 16:00:00] CLOSED SELL (0.03 lots): 🎯 Hit TP | Net PnL: $+143.24 | Bal: $2060.84
+[2025-11-04 18:00:00] 🚀 OPEN SELL @ 3972.62 | Risk: $33.04 | Lots: 0.02
+[2025-11-05 07:30:00] CLOSED SELL (0.02 lots): 🔄 AI Reversal | Net PnL: $+15.48 | Bal: $2076.32
+[2025-11-05 11:00:00] 🚀 OPEN SELL @ 3965.16 | Risk: $38.60 | Lots: 0.03
+[2025-11-05 15:00:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-38.81 | Bal: $2037.51
+[2025-11-06 11:30:00] 🚀 OPEN BUY @ 4010.98 | Risk: $44.88 | Lots: 0.05
+[2025-11-06 15:30:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-45.23 | Bal: $1992.28
+[2025-11-06 17:00:00] 🚀 OPEN SELL @ 3986.70 | Risk: $34.32 | Lots: 0.03
+[2025-11-07 01:30:00] CLOSED SELL (0.03 lots): 🔄 AI Reversal | Net PnL: $-7.74 | Bal: $1984.54
+[2025-11-10 15:30:00] 🚀 OPEN BUY @ 4091.74 | Risk: $42.79 | Lots: 0.04
+[2025-11-10 16:00:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-43.07 | Bal: $1941.47
+[2025-11-10 16:30:00] 🚀 OPEN BUY @ 4083.49 | Risk: $33.79 | Lots: 0.03
+[2025-11-11 02:00:00] CLOSED BUY (0.03 lots): 🎯 Hit TP | Net PnL: $+134.94 | Bal: $2076.40
+[2025-11-11 07:00:00] 🚀 OPEN BUY @ 4136.18 | Risk: $37.60 | Lots: 0.04
+[2025-11-11 08:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-37.88 | Bal: $2038.52
+[2025-11-11 09:00:00] 🚀 OPEN BUY @ 4131.32 | Risk: $40.27 | Lots: 0.04
+[2025-11-11 16:00:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-40.55 | Bal: $1997.97
+[2025-11-11 21:00:00] 🚀 OPEN BUY @ 4117.66 | Risk: $44.85 | Lots: 0.04
+[2025-11-12 05:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-45.13 | Bal: $1952.84
+[2025-11-12 09:00:00] 🚀 OPEN BUY @ 4123.98 | Risk: $42.38 | Lots: 0.04
+[2025-11-12 09:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-42.66 | Bal: $1910.18
+[2025-11-12 23:30:00] 🚀 OPEN BUY @ 4195.14 | Risk: $39.30 | Lots: 0.03
+[2025-11-13 02:30:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-39.51 | Bal: $1870.67
+[2025-11-13 03:00:00] 🚀 OPEN BUY @ 4188.02 | Risk: $29.94 | Lots: 0.02
+[2025-11-13 20:00:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-30.08 | Bal: $1840.59
+[2025-11-14 19:30:00] 🚀 OPEN SELL @ 4099.94 | Risk: $48.96 | Lots: 0.02
+[2025-11-18 09:00:00] CLOSED SELL (0.02 lots): 🎯 Hit TP | Net PnL: $+195.70 | Bal: $2036.29
+[2025-11-18 12:30:00] 🚀 OPEN SELL @ 4044.23 | Risk: $48.70 | Lots: 0.03
+[2025-11-18 15:00:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-48.91 | Bal: $1987.38
+[2025-11-19 14:30:00] 🚀 OPEN BUY @ 4114.58 | Risk: $37.90 | Lots: 0.03
+[2025-11-19 17:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-38.11 | Bal: $1949.27
+[2025-11-20 05:00:00] 🚀 OPEN SELL @ 4076.13 | Risk: $37.88 | Lots: 0.02
+[2025-11-20 14:30:00] CLOSED SELL (0.02 lots): 🔄 AI Reversal | Net PnL: $-11.62 | Bal: $1937.65
+[2025-11-20 15:00:00] 🚀 OPEN BUY @ 4085.86 | Risk: $33.56 | Lots: 0.02
+[2025-11-20 17:30:00] CLOSED BUY (0.02 lots): 🛑 Hit SL | Net PnL: $-33.70 | Bal: $1903.95
+[2025-11-21 10:00:00] 🚀 OPEN SELL @ 4042.77 | Risk: $35.57 | Lots: 0.02
+[2025-11-21 10:30:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-35.71 | Bal: $1868.24
+[2025-11-21 11:00:00] 🚀 OPEN SELL @ 4056.63 | Risk: $36.04 | Lots: 0.02
+[2025-11-21 15:00:00] CLOSED SELL (0.02 lots): 🛑 Hit SL | Net PnL: $-36.18 | Bal: $1832.06
+[2025-11-21 16:30:00] 🚀 OPEN BUY @ 4071.82 | Risk: $36.57 | Lots: 0.02
+[2025-11-24 02:00:00] CLOSED BUY (0.02 lots): 🔄 AI Reversal | Net PnL: $-18.14 | Bal: $1813.92
+[2025-11-24 15:00:00] 🚀 OPEN BUY @ 4080.63 | Risk: $34.81 | Lots: 0.03
+[2025-11-24 16:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-35.02 | Bal: $1778.90
+[2025-11-24 16:30:00] 🚀 OPEN BUY @ 4081.40 | Risk: $37.32 | Lots: 0.03
+[2025-11-24 22:00:00] CLOSED BUY (0.03 lots): 🎯 Hit TP | Net PnL: $+149.06 | Bal: $1927.96
+[2025-11-25 02:30:00] 🚀 OPEN BUY @ 4129.43 | Risk: $37.10 | Lots: 0.03
+[2025-11-25 10:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-37.31 | Bal: $1890.64
+[2025-11-25 10:30:00] 🚀 OPEN BUY @ 4116.13 | Risk: $39.30 | Lots: 0.03
+[2025-11-26 04:30:00] CLOSED BUY (0.03 lots): 🎯 Hit TP | Net PnL: $+156.97 | Bal: $2047.62
+[2025-11-26 08:00:00] 🚀 OPEN BUY @ 4158.36 | Risk: $44.55 | Lots: 0.04
+[2025-11-26 15:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-44.83 | Bal: $2002.78
+[2025-11-27 08:00:00] 🚀 OPEN BUY @ 4156.85 | Risk: $35.72 | Lots: 0.04
+[2025-11-27 15:30:00] CLOSED BUY (0.04 lots): 🔄 AI Reversal | Net PnL: $-7.88 | Bal: $1994.90
+[2025-11-28 05:30:00] 🚀 OPEN BUY @ 4184.23 | Risk: $43.32 | Lots: 0.06
+[2025-11-28 06:30:00] CLOSED BUY (0.06 lots): 🛑 Hit SL | Net PnL: $-43.74 | Bal: $1951.17
+[2025-11-28 13:00:00] 🚀 OPEN BUY @ 4174.87 | Risk: $43.82 | Lots: 0.04
+[2025-11-28 19:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+174.99 | Bal: $2126.15
+[2025-11-28 21:00:00] 🚀 OPEN BUY @ 4217.72 | Risk: $46.16 | Lots: 0.04
+[2025-11-28 21:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-46.44 | Bal: $2079.72
+[2025-12-01 07:00:00] 🚀 OPEN BUY @ 4220.21 | Risk: $43.08 | Lots: 0.03
+[2025-12-02 02:00:00] CLOSED BUY (0.03 lots): 🔄 AI Reversal | Net PnL: $+14.55 | Bal: $2094.27
+[2025-12-02 16:30:00] 🚀 OPEN BUY @ 4218.99 | Risk: $40.66 | Lots: 0.03
+[2025-12-02 17:00:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-40.87 | Bal: $2053.40
+[2025-12-03 16:00:00] 🚀 OPEN BUY @ 4224.72 | Risk: $46.61 | Lots: 0.04
+[2025-12-03 16:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-46.89 | Bal: $2006.51
+[2025-12-04 05:30:00] 🚀 OPEN SELL @ 4195.81 | Risk: $45.53 | Lots: 0.04
+[2025-12-04 15:30:00] CLOSED SELL (0.04 lots): 🛑 Hit SL | Net PnL: $-45.81 | Bal: $1960.70
+[2025-12-05 14:30:00] 🚀 OPEN BUY @ 4228.81 | Risk: $36.42 | Lots: 0.05
+[2025-12-05 17:00:00] CLOSED BUY (0.05 lots): 🎯 Hit TP | Net PnL: $+145.34 | Bal: $2106.04
+[2025-12-05 20:30:00] 🚀 OPEN SELL @ 4208.88 | Risk: $40.37 | Lots: 0.03
+[2025-12-08 09:00:00] CLOSED SELL (0.03 lots): 🔄 AI Reversal | Net PnL: $-15.36 | Bal: $2090.68
+[2025-12-09 03:00:00] 🚀 OPEN SELL @ 4194.21 | Risk: $41.85 | Lots: 0.05
+[2025-12-09 10:30:00] CLOSED SELL (0.05 lots): 🛑 Hit SL | Net PnL: $-42.20 | Bal: $2048.48
+[2025-12-11 20:30:00] 🚀 OPEN BUY @ 4268.22 | Risk: $42.26 | Lots: 0.03
+[2025-12-12 12:00:00] CLOSED BUY (0.03 lots): 🎯 Hit TP | Net PnL: $+168.85 | Bal: $2217.33
+[2025-12-12 21:00:00] 🚀 OPEN BUY @ 4296.22 | Risk: $38.52 | Lots: 0.02
+[2025-12-15 17:00:00] CLOSED BUY (0.02 lots): 🔄 AI Reversal | Net PnL: $+36.06 | Bal: $2253.39
+[2025-12-16 15:00:00] 🚀 OPEN BUY @ 4301.07 | Risk: $43.90 | Lots: 0.04
+[2025-12-17 15:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+175.30 | Bal: $2428.70
+[2025-12-19 05:00:00] 🚀 OPEN SELL @ 4319.39 | Risk: $51.15 | Lots: 0.04
+[2025-12-19 11:00:00] CLOSED SELL (0.04 lots): 🛑 Hit SL | Net PnL: $-51.43 | Bal: $2377.26
+[2025-12-19 11:30:00] 🚀 OPEN BUY @ 4329.53 | Risk: $46.50 | Lots: 0.05
+[2025-12-19 14:30:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $-13.65 | Bal: $2363.61
+[2025-12-22 12:30:00] 🚀 OPEN BUY @ 4408.72 | Risk: $45.68 | Lots: 0.05
+[2025-12-22 22:30:00] CLOSED BUY (0.05 lots): 🎯 Hit TP | Net PnL: $+182.35 | Bal: $2545.96
+[2025-12-22 23:30:00] 🚀 OPEN BUY @ 4443.59 | Risk: $48.66 | Lots: 0.05
+[2025-12-23 02:30:00] CLOSED BUY (0.05 lots): 🎯 Hit TP | Net PnL: $+194.27 | Bal: $2740.24
+[2025-12-23 07:00:00] 🚀 OPEN BUY @ 4480.47 | Risk: $53.52 | Lots: 0.05
+[2025-12-23 07:30:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-53.87 | Bal: $2686.37
+[2025-12-23 08:00:00] 🚀 OPEN BUY @ 4476.17 | Risk: $54.10 | Lots: 0.05
+[2025-12-23 15:30:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-54.45 | Bal: $2631.92
+[2025-12-23 18:00:00] 🚀 OPEN BUY @ 4461.48 | Risk: $58.07 | Lots: 0.04
+[2025-12-24 02:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+232.00 | Bal: $2863.92
+[2025-12-24 07:00:00] 🚀 OPEN BUY @ 4492.51 | Risk: $61.94 | Lots: 0.04
+[2025-12-24 14:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-62.22 | Bal: $2801.69
+[2025-12-26 01:00:00] 🚀 OPEN BUY @ 4497.64 | Risk: $58.52 | Lots: 0.04
+[2025-12-29 01:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-58.80 | Bal: $2742.90
+[2025-12-29 11:00:00] 🚀 OPEN SELL @ 4466.11 | Risk: $60.29 | Lots: 0.03
+[2025-12-29 16:00:00] CLOSED SELL (0.03 lots): 🎯 Hit TP | Net PnL: $+240.96 | Bal: $2983.85
+[2025-12-30 05:00:00] 🚀 OPEN SELL @ 4368.04 | Risk: $59.24 | Lots: 0.03
+[2025-12-30 12:00:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-59.45 | Bal: $2924.41
+[2025-12-30 22:00:00] 🚀 OPEN SELL @ 4350.70 | Risk: $52.75 | Lots: 0.03
+[2025-12-31 03:00:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-52.96 | Bal: $2871.45
+[2025-12-31 03:30:00] 🚀 OPEN SELL @ 4366.10 | Risk: $54.67 | Lots: 0.03
+[2025-12-31 07:00:00] CLOSED SELL (0.03 lots): 🎯 Hit TP | Net PnL: $+218.47 | Bal: $3089.92
+[2025-12-31 08:30:00] 🚀 OPEN SELL @ 4328.18 | Risk: $72.47 | Lots: 0.03
+[2025-12-31 16:00:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-72.68 | Bal: $3017.24
+[2025-12-31 17:00:00] 🚀 OPEN SELL @ 4337.35 | Risk: $61.32 | Lots: 0.03
+[2026-01-02 01:00:00] CLOSED SELL (0.03 lots): 🔄 AI Reversal | Net PnL: $-11.49 | Bal: $3005.75
+[2026-01-02 19:00:00] 🚀 OPEN SELL @ 4328.89 | Risk: $62.84 | Lots: 0.04
+[2026-01-02 23:30:00] CLOSED SELL (0.04 lots): 🛑 Hit SL | Net PnL: $-63.12 | Bal: $2942.63
+[2026-01-05 02:00:00] 🚀 OPEN BUY @ 4387.01 | Risk: $67.09 | Lots: 0.04
+[2026-01-05 16:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+268.06 | Bal: $3210.69
+[2026-01-05 17:00:00] 🚀 OPEN BUY @ 4444.58 | Risk: $66.98 | Lots: 0.04
+[2026-01-06 02:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-67.26 | Bal: $3143.43
+[2026-01-06 07:00:00] 🚀 OPEN BUY @ 4469.77 | Risk: $62.12 | Lots: 0.05
+[2026-01-06 07:30:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-62.47 | Bal: $3080.96
+[2026-01-07 10:30:00] 🚀 OPEN BUY @ 4468.31 | Risk: $65.63 | Lots: 0.05
+[2026-01-07 11:30:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $-24.55 | Bal: $3056.41
+[2026-01-08 17:00:00] 🚀 OPEN BUY @ 4447.76 | Risk: $59.50 | Lots: 0.04
+[2026-01-09 16:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+237.72 | Bal: $3294.13
+[2026-01-09 19:00:00] 🚀 OPEN BUY @ 4503.94 | Risk: $68.91 | Lots: 0.05
+[2026-01-09 19:30:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-69.26 | Bal: $3224.88
+[2026-01-09 20:00:00] 🚀 OPEN BUY @ 4491.52 | Risk: $60.59 | Lots: 0.04
+[2026-01-12 01:30:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+242.06 | Bal: $3466.94
+[2026-01-12 05:30:00] 🚀 OPEN BUY @ 4570.80 | Risk: $70.97 | Lots: 0.04
+[2026-01-13 09:00:00] CLOSED BUY (0.04 lots): 🔄 AI Reversal | Net PnL: $+52.64 | Bal: $3519.58
+[2026-01-13 17:00:00] 🚀 OPEN BUY @ 4608.83 | Risk: $64.02 | Lots: 0.04
+[2026-01-13 19:00:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-64.30 | Bal: $3455.28
+[2026-01-14 01:00:00] 🚀 OPEN BUY @ 4597.13 | Risk: $62.22 | Lots: 0.04
+[2026-01-15 01:00:00] CLOSED BUY (0.04 lots): 🔄 AI Reversal | Net PnL: $+48.04 | Bal: $3503.32
+[2026-01-15 11:30:00] 🚀 OPEN BUY @ 4612.65 | Risk: $72.69 | Lots: 0.05
+[2026-01-15 15:00:00] CLOSED BUY (0.05 lots): 🛑 Hit SL | Net PnL: $-73.04 | Bal: $3430.28
+[2026-01-15 16:30:00] 🚀 OPEN BUY @ 4611.23 | Risk: $74.42 | Lots: 0.05
+[2026-01-16 01:30:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $-4.85 | Bal: $3425.43
+[2026-01-16 18:00:00] 🚀 OPEN SELL @ 4591.83 | Risk: $61.46 | Lots: 0.03
+[2026-01-16 23:30:00] CLOSED SELL (0.03 lots): 🛑 Hit SL | Net PnL: $-61.67 | Bal: $3363.75
+[2026-01-19 05:30:00] 🚀 OPEN BUY @ 4658.53 | Risk: $76.15 | Lots: 0.04
+[2026-01-20 11:00:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+304.33 | Bal: $3668.08
+[2026-01-20 14:00:00] 🚀 OPEN BUY @ 4726.71 | Risk: $76.14 | Lots: 0.07
+[2026-01-20 15:00:00] CLOSED BUY (0.07 lots): 🛑 Hit SL | Net PnL: $-76.63 | Bal: $3591.46
+[2026-01-20 15:30:00] 🚀 OPEN BUY @ 4737.10 | Risk: $72.36 | Lots: 0.06
+[2026-01-20 16:30:00] CLOSED BUY (0.06 lots): 🛑 Hit SL | Net PnL: $-72.78 | Bal: $3518.68
+[2026-01-20 17:00:00] 🚀 OPEN BUY @ 4724.09 | Risk: $75.14 | Lots: 0.05
+[2026-01-21 02:00:00] CLOSED BUY (0.05 lots): 🎯 Hit TP | Net PnL: $+300.21 | Bal: $3818.89
+[2026-01-21 08:30:00] 🚀 OPEN BUY @ 4847.58 | Risk: $66.58 | Lots: 0.03
+[2026-01-21 16:30:00] CLOSED BUY (0.03 lots): 🛑 Hit SL | Net PnL: $-66.79 | Bal: $3752.10
+[2026-01-22 10:00:00] 🚀 OPEN BUY @ 4826.42 | Risk: $79.47 | Lots: 0.04
+[2026-01-22 19:00:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+317.59 | Bal: $4069.69
+[2026-01-23 03:00:00] 🚀 OPEN BUY @ 4947.49 | Risk: $84.79 | Lots: 0.04
+[2026-01-23 09:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-85.07 | Bal: $3984.62
+[2026-01-23 10:00:00] 🚀 OPEN BUY @ 4913.32 | Risk: $75.49 | Lots: 0.04
+[2026-01-23 21:00:00] CLOSED BUY (0.04 lots): 🎯 Hit TP | Net PnL: $+301.68 | Bal: $4286.30
+[2026-01-26 07:00:00] 🚀 OPEN BUY @ 5065.67 | Risk: $84.13 | Lots: 0.04
+[2026-01-26 20:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-84.41 | Bal: $4201.89
+[2026-01-28 02:00:00] 🚀 OPEN BUY @ 5163.14 | Risk: $73.27 | Lots: 0.03
+[2026-01-28 06:30:00] CLOSED BUY (0.03 lots): 🎯 Hit TP | Net PnL: $+292.87 | Bal: $4494.76
+[2026-01-28 12:30:00] 🚀 OPEN BUY @ 5270.11 | Risk: $91.85 | Lots: 0.04
+[2026-01-28 16:30:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-92.13 | Bal: $4402.63
+[2026-02-10 09:30:00] 🚀 OPEN BUY @ 5034.00 | Risk: $97.71 | Lots: 0.04
+[2026-02-10 17:00:00] CLOSED BUY (0.04 lots): 🛑 Hit SL | Net PnL: $-97.99 | Bal: $4304.64
+[2026-02-16 20:30:00] 🚀 OPEN SELL @ 4994.66 | Risk: $91.47 | Lots: 0.07
+[2026-02-17 02:00:00] CLOSED SELL (0.07 lots): 🎯 Hit TP | Net PnL: $+365.39 | Bal: $4670.03
+[2026-02-17 04:30:00] 🚀 OPEN SELL @ 4967.00 | Risk: $87.21 | Lots: 0.05
+[2026-02-17 06:30:00] CLOSED SELL (0.05 lots): 🎯 Hit TP | Net PnL: $+348.51 | Bal: $5018.54
+[2026-02-17 13:00:00] 🚀 OPEN SELL @ 4927.94 | Risk: $105.93 | Lots: 0.05
+[2026-02-17 15:30:00] CLOSED SELL (0.05 lots): 🎯 Hit TP | Net PnL: $+423.38 | Bal: $5441.92
+[2026-02-17 23:00:00] 🚀 OPEN SELL @ 4880.55 | Risk: $98.53 | Lots: 0.04
+[2026-02-18 04:00:00] CLOSED SELL (0.04 lots): 🛑 Hit SL | Net PnL: $-98.81 | Bal: $5343.11
+[2026-02-18 20:00:00] 🚀 OPEN BUY @ 4988.15 | Risk: $101.91 | Lots: 0.06
+[2026-02-18 23:30:00] CLOSED BUY (0.06 lots): 🛑 Hit SL | Net PnL: $-102.33 | Bal: $5240.78
+[2026-02-19 01:30:00] 🚀 OPEN BUY @ 4976.04 | Risk: $100.95 | Lots: 0.06
+[2026-02-20 15:00:00] CLOSED BUY (0.06 lots): 🎯 Hit TP | Net PnL: $+403.37 | Bal: $5644.15
+[2026-02-20 15:30:00] 🚀 OPEN BUY @ 5043.65 | Risk: $119.29 | Lots: 0.07
+[2026-02-20 16:30:00] CLOSED BUY (0.07 lots): 🛑 Hit SL | Net PnL: $-119.78 | Bal: $5524.37
+[2026-02-20 17:00:00] 🚀 OPEN BUY @ 5025.75 | Risk: $112.45 | Lots: 0.05
+[2026-02-20 23:30:00] CLOSED BUY (0.05 lots): 🎯 Hit TP | Net PnL: $+449.44 | Bal: $5973.81
+[2026-02-23 09:00:00] 🚀 OPEN BUY @ 5136.40 | Risk: $116.77 | Lots: 0.06
+[2026-02-23 17:30:00] CLOSED BUY (0.06 lots): 🎯 Hit TP | Net PnL: $+466.64 | Bal: $6440.46
+[2026-02-23 19:30:00] 🚀 OPEN BUY @ 5208.03 | Risk: $131.19 | Lots: 0.06
+[2026-02-24 02:30:00] CLOSED BUY (0.06 lots): 🛑 Hit SL | Net PnL: $-131.61 | Bal: $6308.84
+[2026-02-24 04:00:00] 🚀 OPEN BUY @ 5173.23 | Risk: $116.08 | Lots: 0.05
+[2026-02-24 12:30:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $-2.00 | Bal: $6306.84
+[2026-02-26 02:00:00] 🚀 OPEN BUY @ 5185.19 | Risk: $130.53 | Lots: 0.06
+[2026-02-26 10:30:00] CLOSED BUY (0.06 lots): 🔄 AI Reversal | Net PnL: $-35.10 | Bal: $6271.74
+[2026-02-26 18:00:00] 🚀 OPEN BUY @ 5180.47 | Risk: $114.09 | Lots: 0.05
+[2026-02-27 06:30:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $+6.00 | Bal: $6277.74
+[2026-02-27 16:30:00] 🚀 OPEN BUY @ 5223.88 | Risk: $124.41 | Lots: 0.07
+[2026-02-27 23:30:00] CLOSED BUY (0.07 lots): 🎯 Hit TP | Net PnL: $+497.16 | Bal: $6774.90
+[2026-03-02 13:30:00] 🚀 OPEN BUY @ 5385.28 | Risk: $143.50 | Lots: 0.06
+[2026-03-02 15:30:00] CLOSED BUY (0.06 lots): 🛑 Hit SL | Net PnL: $-143.92 | Bal: $6630.98
+[2026-03-05 15:00:00] 🚀 OPEN SELL @ 5121.91 | Risk: $124.08 | Lots: 0.05
+[2026-03-06 16:30:00] CLOSED SELL (0.05 lots): 🛑 Hit SL | Net PnL: $-124.43 | Bal: $6506.55
+[2026-03-10 06:00:00] 🚀 OPEN BUY @ 5166.69 | Risk: $122.64 | Lots: 0.05
+[2026-03-11 11:00:00] CLOSED BUY (0.05 lots): 🔄 AI Reversal | Net PnL: $+90.85 | Bal: $6597.40
+[2026-03-12 10:00:00] 🚀 OPEN BUY @ 5169.12 | Risk: $130.73 | Lots: 0.08
+[2026-03-12 16:00:00] CLOSED BUY (0.08 lots): 🛑 Hit SL | Net PnL: $-131.29 | Bal: $6466.11
+[2026-03-12 16:30:00] 🚀 OPEN SELL @ 5151.20 | Risk: $136.96 | Lots: 0.08
+[2026-03-12 21:30:00] CLOSED SELL (0.08 lots): 🎯 Hit TP | Net PnL: $+547.26 | Bal: $7013.37
+[2026-03-13 04:00:00] 🚀 OPEN SELL @ 5119.00 | Risk: $137.77 | Lots: 0.08
+[2026-03-13 17:00:00] CLOSED SELL (0.08 lots): 🎯 Hit TP | Net PnL: $+550.54 | Bal: $7563.91
+[2026-03-13 19:00:00] 🚀 OPEN SELL @ 5041.01 | Risk: $148.88 | Lots: 0.06
+[2026-03-17 05:30:00] CLOSED SELL (0.06 lots): 🔄 AI Reversal | Net PnL: $+110.04 | Bal: $7673.95
+[2026-03-18 13:30:00] 🚀 OPEN SELL @ 4967.96 | Risk: $146.35 | Lots: 0.1
+[2026-03-18 14:30:00] CLOSED SELL (0.1 lots): 🎯 Hit TP | Net PnL: $+584.70 | Bal: $8258.65
+[2026-03-18 19:30:00] 🚀 OPEN SELL @ 4886.84 | Risk: $170.90 | Lots: 0.07
+[2026-03-19 09:00:00] CLOSED SELL (0.07 lots): 🎯 Hit TP | Net PnL: $+683.11 | Bal: $8941.76

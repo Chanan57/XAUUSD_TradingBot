@@ -1,7 +1,7 @@
 import sys
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 import MetaTrader5 as mt5
 
@@ -32,9 +32,9 @@ def run_backtest():
     if model is None: 
         print("❌ AI Training Failed."); sys.exit()
 
-    # 2. FETCH HISTORICAL DATA
-    start_date = datetime(2026, 1, 29)
+    # 2. FETCH HISTORICAL DATA (Last 6 Months)
     end_date = datetime.now()
+    start_date = end_date - timedelta(days=180)
     
     print(f"📥 Fetching {SYMBOL} from {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}...", flush=True)
     rates = mt5.copy_rates_range(SYMBOL, TIMEFRAME, start_date, end_date)
@@ -46,7 +46,7 @@ def run_backtest():
     df = data_engine.prepare_data(raw_df)
     
     # 4. SIMULATION VARIABLES 
-    starting_balance = 327.04
+    starting_balance = 1000.00
     balance = starting_balance
     peak_balance = starting_balance
     
@@ -74,6 +74,13 @@ def run_backtest():
     exit_times, exit_prices, exit_hover_text = [], [], []
 
     print(f"\n📈 STARTING BALANCE: ${balance:.2f} USD\n" + "="*65)
+    print("✍️ Logging tick-by-tick trades to 'trade_history.txt'...")
+
+    # Open log file for writing trades (ADDED utf-8 ENCODING HERE)
+    log_file_path = os.path.join(os.path.dirname(__file__), "trade_history.txt")
+    trade_log = open(log_file_path, "w", encoding="utf-8")
+    trade_log.write(f"PHOENIX V6.4 TRADE LOG ({start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')})\n")
+    trade_log.write("="*80 + "\n")
 
     # 5. THE TICK-BY-TICK LOOP
     for i in range(len(df) - 1):
@@ -140,7 +147,8 @@ def run_backtest():
                 if balance > peak_balance: peak_balance = balance
                 else: max_dd_usd = max(max_dd_usd, peak_balance - balance)
                 
-                print(f"[{row['time']}] CLOSED {trade_type} ({current_lot_size} lots): {close_reason} | Net PnL: ${net_pnl:+.2f} | Bal: ${balance:.2f}")
+                # Write to file instead of console
+                trade_log.write(f"[{row['time']}] CLOSED {trade_type} ({current_lot_size} lots): {close_reason} | Net PnL: ${net_pnl:+.2f} | Bal: ${balance:.2f}\n")
                 
                 # Record visual exit data
                 exit_times.append(row['time'])
@@ -196,7 +204,12 @@ def run_backtest():
                     sell_prices.append(entry_price)
                 
                 actual_risk_usd = current_lot_size * contract_size * sl_dist
-                print(f"[{row['time']}] 🚀 OPEN {trade_type} @ {entry_price:.2f} | Risk: ${actual_risk_usd:.2f} | Lots: {current_lot_size}")
+                
+                # Write to file instead of console
+                trade_log.write(f"[{row['time']}] 🚀 OPEN {trade_type} @ {entry_price:.2f} | Risk: ${actual_risk_usd:.2f} | Lots: {current_lot_size}\n")
+
+    # Close the log file when the loop is done
+    trade_log.close()
 
     # 6. FINAL REPORT CALCULATION
     total_trades = wins + losses
@@ -207,7 +220,7 @@ def run_backtest():
     print("\n" + "="*65)
     print("📊 PHOENIX V6.4 EXACT PARAMETER BACKTEST")
     print("="*65)
-    print(f"Timeframe        : Jan 29, 2026 -> {end_date.strftime('%b %d, %Y')}")
+    print(f"Timeframe        : {start_date.strftime('%b %d, %Y')} -> {end_date.strftime('%b %d, %Y')}")
     print(f"Starting Balance : ${starting_balance:.2f} USD")
     print(f"Final Balance    : ${balance:.2f} USD")
     print(f"Net Profit       : ${net_profit:+.2f} USD")
@@ -218,6 +231,7 @@ def run_backtest():
     print(f"Profit Factor    : {profit_factor:.2f}")
     print(f"Max Drawdown     : ${max_dd_usd:.2f} ({(max_dd_usd/peak_balance*100):.1f}%)" if peak_balance > 0 else "Max Drawdown     : N/A")
     print("="*65)
+    print(f"📄 Detailed trade log saved to: {log_file_path}")
 
     # 7. GENERATE INTERACTIVE VISUAL CHART
     if VISUALS_ENABLED:
